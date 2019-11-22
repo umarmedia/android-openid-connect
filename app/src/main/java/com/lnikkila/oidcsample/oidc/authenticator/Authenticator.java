@@ -39,9 +39,9 @@ public class Authenticator extends AbstractAccountAuthenticator {
     private Context context;
     private AccountManager accountManager;
 
-    public static final String TOKEN_TYPE_ID = "com.lnikkila.oidcsample.TOKEN_TYPE_ID";
-    public static final String TOKEN_TYPE_ACCESS = "com.lnikkila.oidcsample.TOKEN_TYPE_ACCESS";
-    public static final String TOKEN_TYPE_REFRESH = "com.lnikkila.oidcsample.TOKEN_TYPE_REFRESH";
+    public static final String TOKEN_TYPE_ID = "colibri.TOKEN_TYPE_ID";
+    public static final String TOKEN_TYPE_ACCESS = "colibri.TOKEN_TYPE_ACCESS";
+    public static final String TOKEN_TYPE_REFRESH = "colibri.TOKEN_TYPE_REFRESH";
 
     public Authenticator(Context context) {
         super(context);

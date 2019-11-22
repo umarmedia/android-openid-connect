@@ -5,6 +5,6 @@
 <resources>
 
     <!-- An identifier for the account type that this app provides -->
-    <string name="ACCOUNT_TYPE">com.lnikkila.oidcsample.account</string>
+    <string name="ACCOUNT_TYPE">colibri</string>
 
 </resources>

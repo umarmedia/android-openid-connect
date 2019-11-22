@@ -45,9 +45,9 @@ public class AuthenticatorActivity extends AccountAuthenticatorActivity {
 
     private final String TAG = getClass().getSimpleName();
 
-    public static final String KEY_AUTH_URL = "com.lnikkila.oidcsample.KEY_AUTH_URL";
-    public static final String KEY_IS_NEW_ACCOUNT = "com.lnikkila.oidcsample.KEY_IS_NEW_ACCOUNT";
-    public static final String KEY_ACCOUNT_OBJECT = "com.lnikkila.oidcsample.KEY_ACCOUNT_OBJECT";
+    public static final String KEY_AUTH_URL = "colibri.KEY_AUTH_URL";
+    public static final String KEY_IS_NEW_ACCOUNT = "colibri.KEY_IS_NEW_ACCOUNT";
+    public static final String KEY_ACCOUNT_OBJECT = "colibri.KEY_ACCOUNT_OBJECT";
 
     private AccountManager accountManager;
     private Account account;
